@@ -19,7 +19,7 @@ before_install:
 before_deploy:
   - zip -r com-joon-book *
   - mkdir -p deploy
-  - mv com-joon-book.zip
+  - mv com-joon-book.zip deploy/com-joon-book.zip
 
 deploy:
   - provider: s3
