@@ -36,7 +36,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: com-joon-book
-    key: com-joon-book
+    key: com-joon-book.zip
     bundle_type: zip
     application: com-joon-book3
     depployment_group: com-joon-book
